@@ -1,5 +1,7 @@
 # Showcase for cacheControl bug in Apollo Server
 
+Issue: https://github.com/apollographql/apollo-server/issues/933
+
 The purpose of this repo is to showcase a bug (?) in the Apollo GraphQL stack, when combining `mergeSchemas`, and dynamic cache hints through `info.cacheControl` in a resolver.
 
 ## Problem
